@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Página de Perros</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a nuestra página de perros</h1>
+    <nav>
+      <ul>
+        <li><a href="#perros-populares">Perros Populares</a></li>
+        <li><a href="#cuidado-de-perros">Cuidado de Perros</a></li>
+        <li><a href="#adopcion-de-perros">Adopción de Perros</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="perros-populares">
+      <h2>Perros Populares</h2>
+      <p>Aquí encontrarás información sobre las razas de perros más populares y sus características.</p>
+    </section>
+    <section id="cuidado-de-perros">
+      <h2>Cuidado de Perros</h2>
+      <p id="mensaje" onmouseover="cambiarTexto()">Aquí encontrarás información sobre cómo cuidar a tu perro, incluyendo alimentación, ejercicio y salud.</p>
+    </section>
+    <section id="adopcion-de-perros">
+      <h2>Adopción de Perros</h2>
+      <p>Aquí encontrarás información sobre cómo adoptar un perro y los pasos necesarios para hacerlo.</p>
+      <button onclick="mostrarAlerta()">Adoptar</button>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright ©2022 Página de Perros</p>
+  </footer>
+</body>
+</html>
